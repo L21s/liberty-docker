@@ -9,7 +9,6 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 USER root
-RUN chmod +x ./flyway/flyway
 RUN chmod +x entrypoint.sh
 
 # Install WebSphere Liberty
