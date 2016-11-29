@@ -1,0 +1,1 @@
+/opt/ibm/docker/docker-server run defaultServer
